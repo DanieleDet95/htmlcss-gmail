@@ -1,0 +1,26 @@
+h1{
+  margin-left: 20px;
+}
+legend{
+  background: black;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+}
+table{
+  background: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+fieldset{
+  background: gray;
+  width: 280px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+button{
+  margin-top: 10px;
+  background: lightgreen;
+  border-radius: 15px;
+  font-size: 20px;
+}

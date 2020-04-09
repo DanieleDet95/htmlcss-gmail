@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Registrazione</title>
+</head>
+<body>
+  <h1>REGISTRAZIONE</h1>
+  <form>
+    <fieldset>
+      <legend>Personale</legend>
+        <table>
+          <tr>
+            <td><label for="nome">Nome</label></td>
+            <td><input type="text" id="nome" name="nome" placeholder="Il tuo nome..."></td>
+          </tr>
+          <tr>
+            <td><label for="cognome">Cognome</label></td>
+            <td><input type="text" id="cognome" name="cognome" placeholder="Il tuo cognome..."></td>
+          </tr>
+          <tr>
+            <td><label for="paese">Paese</label></td>
+            <td>
+              <select name="paese" id="paese">
+                <option value="Italia">Italia</option>
+                <option value="Germania">Germania</option>
+                <option value="Francia">Francia</option>
+                <option value="Spagna">Spagna</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="SESSO">Sesso</label></td>
+            <td>
+              <input type="radio" id="maschio" name="sesso" value="maschio">
+              <label for="male">Maschio</label>
+              <input type="radio" id="femmina" name="sesso" value="femmina">
+              <label for="male">Femmina</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="favcolor">Colore pref:</label></td>
+            <td><input type="color" id="favcolor" name="favcolor" value="#ff0000"></td>
+          </tr>
+          <tr>
+            <td><label for="SESSO">Hobby</label></td>
+            <td>
+              <input type="checkbox" id="hobby" name="hobby" value="calcio">
+              <label for="hobby"> Calcio</label><br>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" id="hobby" name="hobby" value="tennis">
+              <label for="hobby"> Tennis</label><br>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" id="hobby" name="hobby" value="nuoto">
+              <label for="hobby"> Nuoto</label><br>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Dati sito</legend>
+          <table>
+            <tr>
+              <td><label for="utente">Nome utente</label></td>
+              <td><input type="text" id="utente" name="utente" placeholder="Nome utente"></td>
+            </tr>
+            <tr>
+              <td><label for="password"></label>Password</td>
+              <td><input type="password" name="password"></td>
+            </tr>
+          </table>
+        <button type="button" name="button">Registati</button>
+      </fieldset>
+
+  </form>
+</body>
+</html>

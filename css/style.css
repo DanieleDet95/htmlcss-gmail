@@ -1,0 +1,80 @@
+/* Impostazione pagina generale */
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/sfondo.jpg");
+}
+/* Impostazione contenitore */
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+/* Impostazione logo */
+.img_logo{
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+.scritta_logo{
+  color: white;
+  font-size: 25px;
+}
+/* Fine impostazione logo */
+
+/* Impostazione header */
+.header_top{
+  border-bottom: 1px solid white;
+}
+.header_bottom{
+  margin-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+  line-height: 50px;
+}
+.unread{
+  color: white;
+  font-size: 25px;
+}
+.cerchio{
+  display: inline-block;
+  background: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+/* Fine impostazione header */
+
+/* Impostazione lista mail */
+.lista_mail{
+  margin: 8px 0px;
+}
+.mail{
+  background: lightgray;
+  border: 1px solid black;
+  padding: 2px;
+}
+.chiaro{
+  color: gray;
+}
+.read{
+  background: white;
+}
+/* Fine impostazione lista mail */
+
+/* Impostazione footer */
+.footer{
+  padding: 8px;
+  text-align: center;
+  border-top: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+.corsivo{
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Fine impostazione footer */
